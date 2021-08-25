@@ -1,0 +1,32 @@
+{
+    "name": "color-blind-dark",
+    "displayName": "Color Blind Dark",
+    "description": "Simple dark theme for those with color blindness. This theme makes all text white with a black background.",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "publisher": "p26frqxxfmwrzekd6c6fcty5kipjkr3gaeejzpkyy42p5udjkjyq",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xan1000/Color-Blind-Dark"
+    },
+    "homepage": "https://github.com/xan1000/Color-Blind-Dark",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme", "color-theme", "colour", "blind", "dark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Color Blind Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Color Blind Dark-color-theme.json"
+            }
+        ]
+    }
+}
